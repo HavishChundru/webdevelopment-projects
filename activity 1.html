@@ -1,75 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Most Powerful kid in Da school</title>
+    <title>Great seasers Menu!</title>
     <style>
         body {
-            background-color: rgb(255, 72, 72);
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: arial;
+            background: #fff8f0;
+            padding: 30px;
+            text-align: center;
+        }
+        h1 {
+            color:#e65c00 ;
         }
 
-        .hero-name {
-            font-size: 60px;
+        h1 + p {
+            background:#ffe0b2;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: #bf360c;
+            display: inline-block;
+        }
+        ul {padding: 0; margin-top: 20px;}
+        ul > li {
+            list-style: none;
+            font-size: 18px;
             font-weight: bold;
-            color: yellow;
-            text-shadow: 3px 3px orange;
+            color: #5d4037;
+            padding: 10px 20px;
+            margin: 6px auto;
+            width: 260px;
+            background: #fff3e0;
+            border-radius: 8px;
         }
+       ul li:nth-child(3) {
+        background-image: #ffe082;
+        color: #e65c00;
+       }
+       .desc {
+        color: #555;
+        margin-top: 20px;
+        font-size: 15px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+       }
+       .desc::first-letter {
+        font-size: 220%;
+        color:#e65c00 ;
+        font-weight: bold;
+       }
+       .links {margin-top: 25px;}
+       a {
+        color: #e65c00;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 0 12px;
+        padding: 8px 18px;
+        border: 2px solid #e65c00;
+        border-radius: 8px;
+       }
 
-        .tagline {
-            font-style: italic;
-            color: rgb(72, 0, 255);
-            text-transform: capitalize;
-        }
-        .label {
-            text-transform: uppercase;
-            text-decoration: underline;
-            color: coral;
-        }
-        .power {
-            font-weight: bold;
-            color: rgb(119, 0, 255);
-        }
+       a:hover {
+        background:#e65c00;
+        color: white;
+    }
+       </style>
+ </head>
+ <body>
+    <h1>My Food Menu</h1>
+    <p>Pick ur favourtie dish and dig in!</p>
 
-        .weakness {
-            text-decoration: line-through;
-            color: gray;
-        }
+    <ul>
+        <li>Pizza</li>
+        <li>Burgurs</li>
+        <li>Tacos-Chefs Special!</li>
+        <li>Noodles</li>
+        <li>Ice cream</li>
+    </ul>
 
-        .badge {
-            font-size: 36px;
-            font-weight: bold;
-            color: gold;
-            transform: rotate(8.5deg);
-            text-shadow: 3px 3px orange;
-        }
-
-        .made by {
-            color: coral;
-            font-style: italic;
-        }
-
-    </style>
-</head>
-
-<body>
-    <h1 class="hero-name">Thunder kid</h1>
-    <p class="tagline">The most powerful hero in the school</p>
-
-    <h2 class="label">super powers</h2>
-    <p class="power">Can run faster than a cheetah</p>
-    <p class="power">Can lift a school bus</p>
-
-    <h2 class="label">weaknesses</h2>
-    <p class="weakness">Maths Homework</p>
-    <p class="weakness">Broccoli</p>
-     <br><br><br>
-    <p class="badge">Top Hero</p>
-
-    <p class="made by">Created by Havish!</p>
+    <p class="desc">Every dish on this menu is made with love and loads of flavour. Try them all and find ur favourite!</p>
+    <div class="links">
+        <a href="#">Order Now</a>
+        <a href="#">See More</a>
+    </div>
 </body>
-
 </html>
